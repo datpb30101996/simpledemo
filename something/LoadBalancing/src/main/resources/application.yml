@@ -1,0 +1,10 @@
+#News
+news:
+  server: http://localhost:8081
+
+
+
+#Ware houses
+warehouses:
+  server: http://localhost:8082
+
