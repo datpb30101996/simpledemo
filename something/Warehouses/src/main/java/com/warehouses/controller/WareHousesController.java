@@ -9,8 +9,8 @@ import javax.servlet.http.HttpServletRequest;
 @RestController
 @RequestMapping(path = "/warehouses")
 public class WareHousesController {
-    @RequestMapping(path = "/hello", method = RequestMethod.GET)
-    public String helloWarehouses(HttpServletRequest request) {
-        return request.getRequestURI();
+    @RequestMapping(path = "/hello")
+    public String helloWarehouses() {
+        return "Hello Ware Houses";
     }
 }
